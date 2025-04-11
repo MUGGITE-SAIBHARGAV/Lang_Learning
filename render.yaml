@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: language-learning
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn Language_Learning.wsgi:application
+    autoDeploy: true
+    envVars:
+      - key: SECRET_KEY
+        value: your-secret-key
+      - key: DEBUG
+        value: false
+      - key: ALLOWED_HOSTS
+        value: language-learning.onrender.com

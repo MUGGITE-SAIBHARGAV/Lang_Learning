@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="card">
+        <div class="card-header bg-light">
+            <strong>Classroom Conversation</strong>
+        </div>
+        <div class="card-body chat-box" id="chatBox" style="height: 400px; overflow-y: auto; background: #f8f9fa;">
+            <div class="d-flex flex-column">
+                <div class="d-flex align-items-start">
+                    <img src="/static/images/teacher.png" class="rounded-circle me-2" width="40" height="40">
+                    <div class="bg-light p-2 rounded">
+                        <strong>Teacher</strong>
+                        <p>Hi, welcome to the class! Let's practice a conversation. 😊</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="input-group">
+                <input type="text" id="messageInput" class="form-control" placeholder="Enter your message...">
+                <button class="btn btn-success" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function sendMessage() {
+    let message = $("#messageInput").val();
+    if (message.trim() === "") return;
+
+    let chatBox = $("#chatBox");
+    let userMessage = `<div class="d-flex justify-content-end mb-2">
+        <div class="bg-primary text-white p-2 rounded">
+            <strong>Student</strong>
+            <p>${message}</p>
+        </div>
+        <img src="/static/images/student.png" class="rounded-circle ms-2" width="40" height="40">
+    </div>`;
+
+    chatBox.append(userMessage);
+    $("#messageInput").val("");
+    chatBox.scrollTop(chatBox[0].scrollHeight);
+
+    setTimeout(() => {
+        let botReply = `<div class="d-flex align-items-start mb-2">
+            <img src="/static/images/teacher.png" class="rounded-circle me-2" width="40" height="40">
+            <div class="bg-light p-2 rounded">
+                <strong>Teacher</strong>
+                <p>Great! Keep going with the conversation. 😊</p>
+            </div>
+        </div>`;
+
+        chatBox.append(botReply);
+        chatBox.scrollTop(chatBox[0].scrollHeight);
+    }, 1000);
+}
+</script>
+
+{% endblock %}

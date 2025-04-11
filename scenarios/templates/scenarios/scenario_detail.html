@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2>{{ scenario.title }}</h2>
+    <p>{{ scenario.description }}</p>
+
+    <div class="card">
+        <div class="card-header bg-primary text-white text-center">Live Conversation</div>
+        <div class="card-body chat-box" id="chatBox" style="height: 400px; overflow-y: auto; background: #f8f9fa; padding: 10px; border-radius: 5px; cursor: pointer;">
+            <div id="chatMessages" onclick="showNextDialogue()"> 
+                <p class="text-center text-muted">Tap to start the conversation</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var dialogues = [
+        {% for dialogue in dialogues %}
+            { speaker: "{{ dialogue.speaker }}", text: "{{ dialogue.text }}" },
+        {% endfor %}
+    ];
+    
+    var index = 0;
+
+    function showNextDialogue() {
+        if (index < dialogues.length) {
+            let chatBox = document.getElementById("chatMessages");
+
+            // Determine alignment and image based on speaker
+            let isTeacher = dialogues[index].speaker.toLowerCase() === "teacher";
+            let alignment = isTeacher ? "start" : "end";
+            let profileImage = isTeacher ? "{% static 'images/teacher.png' %}" : "{% static 'images/student.png' %}";
+            let messageClass = isTeacher ? "teacher-msg" : "student-msg";
+
+            let newMessage = `
+                <div class="d-flex justify-content-${alignment} mb-2 align-items-center">
+                    ${isTeacher ? `<img src="${profileImage}" class="rounded-circle me-2" width="40" height="40">` : ""}
+                    <div class="message-box ${messageClass}">
+                        <strong>${dialogues[index].speaker}</strong><br>
+                        ${dialogues[index].text}
+                    </div>
+                    ${!isTeacher ? `<img src="${profileImage}" class="rounded-circle ms-2" width="40" height="40">` : ""}
+                </div>`;
+
+            chatBox.innerHTML += newMessage;
+            chatBox.scrollTop = chatBox.scrollHeight;
+            index++;
+        } else {
+            document.getElementById("chatMessages").innerHTML += `<p class="text-center text-muted">End of conversation</p>`;
+        }
+    }
+</script>
+
+<style>
+    .chat-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .message-box {
+        max-width: 60%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .teacher-msg {
+        background-color: #d1ecf1;
+        color: #0c5460;
+        align-self: flex-start;
+    }
+
+    .student-msg {
+        background-color: #cce5ff;
+        color: #004085;
+        align-self: flex-end;
+    }
+</style>
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Available Languages - Language Learning Platform{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h1 class="display-5 fw-bold mb-3">Available Languages</h1>
+        <p class="lead">Select a language to begin your learning journey.</p>
+    </div>
+</div>
+
+<div class="row">
+    {% for language in languages %}
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            {% if language.flag_image %}
+            <img src="{{ language.flag_image.url }}" class="card-img-top" style="height: 180px; object-fit: cover;" alt="{{ language.name }}">
+            {% else %}
+            <img src="https://source.unsplash.com/random/300x180/?{{ language.name }}" class="card-img-top" style="height: 180px; object-fit: cover;" alt="{{ language.name }}">
+            {% endif %}
+            <div class="card-body">
+                <h5 class="card-title">{{ language.name }}</h5>
+                <p class="card-text small text-muted">Language Code: {{ language.code }}</p>
+                <a href="{% url 'courses:course_list' language.id %}" class="btn btn-primary w-100">View Courses</a>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div class="col-12 text-center py-5">
+        <div class="alert alert-info">
+            <h4>No languages available yet</h4>
+            <p>We're working on adding more languages. Please check back later!</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %} 

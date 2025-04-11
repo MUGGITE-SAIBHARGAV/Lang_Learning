@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ language.name }} Courses - Language Learning Platform{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% url 'courses:language_list' %}">Languages</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ language.name }}</li>
+            </ol>
+        </nav>
+        
+        <div class="d-flex align-items-center mb-4">
+            {% if language.flag_image %}
+            <img src="{{ language.flag_image.url }}" alt="{{ language.name }}" class="me-3" style="height: 40px;">
+            {% endif %}
+            <h1 class="display-5 fw-bold m-0">{{ language.name }} Courses</h1>
+        </div>
+        
+        <p class="lead">Choose a course to start learning {{ language.name }}.</p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 mb-4">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-outline-primary active filter-btn" data-filter="all">All Levels</button>
+            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="beginner">Beginner</button>
+            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="intermediate">Intermediate</button>
+            <button type="button" class="btn btn-outline-primary filter-btn" data-filter="advanced">Advanced</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    {% for course in courses %}
+    <div class="col-md-6 mb-4 course-item" data-level="{{ course.level }}">
+        <div class="card h-100">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    {% if course.image %}
+                    <img src="{{ course.image.url }}" class="img-fluid rounded-start h-100" style="object-fit: cover;" alt="{{ course.title }}">
+                    {% else %}
+                    <img src="https://source.unsplash.com/random/300x200/?{{ language.name }},learning" class="img-fluid rounded-start h-100" style="object-fit: cover;" alt="{{ course.title }}">
+                    {% endif %}
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ course.title }}</h5>
+                        <span class="badge bg-primary mb-2">{{ course.get_level_display }}</span>
+                        <p class="card-text">{{ course.description|truncatewords:20 }}</p>
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <small class="text-muted">{{ course.lessons.count }} Lessons</small>
+                            <a href="{% url 'courses:course_detail' course.id %}" class="btn btn-sm btn-primary">Start Learning</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% empty %}
+    <div class="col-12 text-center py-5">
+        <div class="alert alert-info">
+            <h4>No courses available for {{ language.name }} yet</h4>
+            <p>We're working on adding courses for this language. Please check back later!</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const courseItems = document.querySelectorAll('.course-item');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Toggle active state
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Filter courses
+                courseItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-level') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>
+{% endblock %} 

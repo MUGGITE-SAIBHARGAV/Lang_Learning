@@ -1,0 +1,452 @@
+{
+  "title": "Lesson 1: Expressing Opinions and Agreeing/Disagreeing",
+  "content": [
+    "Grammar: Expressing opinions with phrases like 'I believe', 'In my opinion', and using modals like 'should', 'must'",
+    "Vocabulary: opinion, agree, disagree, perspective, suggest, recommend",
+    "Conversation: 'In my opinion, we should start the project earlier.' 'I see your point, but I think we need more time to prepare.'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which sentence expresses an opinion?",
+      "options": [
+        "The meeting starts at 10 AM.",
+        "I believe we need more team members.",
+        "He is the manager.",
+        "There is no internet today."
+      ],
+      "answer": "I believe we need more team members."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "In my ________, we should wait until next week.",
+      "answer": "opinion"
+    },
+    {
+      "type": "matching",
+      "question": "Match the phrase with its meaning",
+      "pairs": {
+        "I agree with you": "You’re right",
+        "I disagree": "I don’t think the same",
+        "From my perspective": "What I think"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "I ________ we should focus on marketing more.",
+      "answer": "suggest"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "What is a polite way to disagree?",
+      "options": [
+        "You’re wrong.",
+        "That’s stupid.",
+        "I see your point, but I disagree.",
+        "No way!"
+      ],
+      "answer": "I see your point, but I disagree."
+    }
+  ]
+},
+{
+  "title": "Lesson 2: Talking About Hypothetical Situations",
+  "content": [
+    "Grammar: Second Conditional (If I were you, I would…)",
+    "Vocabulary: hypothetical, situation, consequence, unlikely, imagine",
+    "Conversation: 'If I were the manager, I would reduce working hours.' 'That would definitely improve morale!'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which sentence uses the second conditional?",
+      "options": [
+        "If I go there, I’ll call you.",
+        "If I were rich, I would travel the world.",
+        "If it rains, we’ll stay home.",
+        "If you see him, tell him I called."
+      ],
+      "answer": "If I were rich, I would travel the world."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "If I ______ you, I would accept the offer.",
+      "answer": "were"
+    },
+    {
+      "type": "matching",
+      "question": "Match the clause with its result",
+      "pairs": {
+        "If I had more time": "I would learn French",
+        "If I lived in New York": "I’d visit Central Park often",
+        "If he were here": "He would explain everything"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "She would be surprised if he _______ (arrive) early.",
+      "answer": "arrived"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which is a correct hypothetical sentence?",
+      "options": [
+        "If I am taller, I play basketball.",
+        "If I have time, I go shopping.",
+        "If I were a bird, I would fly.",
+        "If he will come, we will start."
+      ],
+      "answer": "If I were a bird, I would fly."
+    }
+  ]
+},
+{
+  "title": "Lesson 3: Using Reported Speech",
+  "content": [
+    "Grammar: Reported Speech (He said he was tired)",
+    "Vocabulary: report, mention, claim, explain, announce",
+    "Conversation: 'She said she would be late.' 'Did she mention why?'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "What is the reported form of: 'I am hungry'?",
+      "options": [
+        "She said she was hungry.",
+        "She said she is hungry.",
+        "She said I am hungry.",
+        "She said she hungry."
+      ],
+      "answer": "She said she was hungry."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "He said he _______ (not know) the answer.",
+      "answer": "did not know"
+    },
+    {
+      "type": "matching",
+      "question": "Match direct speech to reported speech",
+      "pairs": {
+        "I will call you": "He said he would call me",
+        "I can swim": "She said she could swim",
+        "I’m tired": "He said he was tired"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "They said they _______ (leave) at 6 PM.",
+      "answer": "would leave"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which word is commonly used in reported speech?",
+      "options": ["write", "announce", "explain", "say"],
+      "answer": "say"
+    }
+  ]
+},
+{
+  "title": "Lesson 4: Talking About Past Habits",
+  "content": [
+    "Grammar: Used to / Would for past habits",
+    "Vocabulary: habit, routine, childhood, regularly, previously",
+    "Conversation: 'I used to go fishing with my grandfather.' 'Same here! We would fish every weekend!'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which sentence shows a past habit?",
+      "options": [
+        "I go to the gym every day.",
+        "I used to play tennis after school.",
+        "He is watching TV now.",
+        "She will study later."
+      ],
+      "answer": "I used to play tennis after school."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "When I was a kid, we _______ (go) to the beach every summer.",
+      "answer": "used to go"
+    },
+    {
+      "type": "matching",
+      "question": "Match the phrase to its time reference",
+      "pairs": {
+        "Used to": "In the past",
+        "Would (past habit)": "Regularly before",
+        "Nowadays": "In the present"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "My father _______ tell stories before bed.",
+      "answer": "would"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which is NOT a past habit?",
+      "options": [
+        "She used to sing in a band.",
+        "He would walk to school every day.",
+        "I was tired yesterday.",
+        "They used to travel a lot."
+      ],
+      "answer": "I was tired yesterday."
+    }
+  ]
+},
+{
+  "title": "Lesson 5: Making Complaints and Apologies",
+  "content": [
+    "Grammar: Modal verbs for politeness (could, would), formal structures for complaints",
+    "Vocabulary: complaint, apologize, issue, unacceptable, inconvenience",
+    "Conversation: 'I’d like to make a complaint about the noise.' 'We apologize for the inconvenience.'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which is a polite way to complain?",
+      "options": [
+        "This is bad!",
+        "I hate this!",
+        "I’d like to make a complaint.",
+        "You guys are terrible."
+      ],
+      "answer": "I’d like to make a complaint."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "We _______ for the delay in service.",
+      "answer": "apologize"
+    },
+    {
+      "type": "matching",
+      "question": "Match the phrase with the purpose",
+      "pairs": {
+        "We’re sorry for the mistake": "Apologizing",
+        "Could you help us solve this issue?": "Requesting help",
+        "I’d like to speak to a manager": "Making a complaint"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The food was cold. This is totally _______.",
+      "answer": "unacceptable"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which is a formal phrase to apologize?",
+      "options": [
+        "My bad",
+        "Oops, sorry",
+        "We apologize for the inconvenience",
+        "Too bad"
+      ],
+      "answer": "We apologize for the inconvenience"
+    }
+  ]
+},
+
+{
+  "title": "Lesson 2: Talking About Hypothetical Situations",
+  "content": [
+    "Grammar: Second Conditional (If I were you, I would…)",
+    "Vocabulary: hypothetical, situation, consequence, unlikely, imagine",
+    "Conversation: 'If I were the manager, I would reduce working hours.' 'That would definitely improve morale!'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which sentence uses the second conditional?",
+      "options": [
+        "If I go there, I’ll call you.",
+        "If I were rich, I would travel the world.",
+        "If it rains, we’ll stay home.",
+        "If you see him, tell him I called."
+      ],
+      "answer": "If I were rich, I would travel the world."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "If I ______ you, I would accept the offer.",
+      "answer": "were"
+    },
+    {
+      "type": "matching",
+      "question": "Match the clause with its result",
+      "pairs": {
+        "If I had more time": "I would learn French",
+        "If I lived in New York": "I’d visit Central Park often",
+        "If he were here": "He would explain everything"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "She would be surprised if he _______ (arrive) early.",
+      "answer": "arrived"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which is a correct hypothetical sentence?",
+      "options": [
+        "If I am taller, I play basketball.",
+        "If I have time, I go shopping.",
+        "If I were a bird, I would fly.",
+        "If he will come, we will start."
+      ],
+      "answer": "If I were a bird, I would fly."
+    }
+  ]
+},
+{
+  "title": "Lesson 3: Using Reported Speech",
+  "content": [
+    "Grammar: Reported Speech (He said he was tired)",
+    "Vocabulary: report, mention, claim, explain, announce",
+    "Conversation: 'She said she would be late.' 'Did she mention why?'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "What is the reported form of: 'I am hungry'?",
+      "options": [
+        "She said she was hungry.",
+        "She said she is hungry.",
+        "She said I am hungry.",
+        "She said she hungry."
+      ],
+      "answer": "She said she was hungry."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "He said he _______ (not know) the answer.",
+      "answer": "did not know"
+    },
+    {
+      "type": "matching",
+      "question": "Match direct speech to reported speech",
+      "pairs": {
+        "I will call you": "He said he would call me",
+        "I can swim": "She said she could swim",
+        "I’m tired": "He said he was tired"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "They said they _______ (leave) at 6 PM.",
+      "answer": "would leave"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which word is commonly used in reported speech?",
+      "options": ["write", "announce", "explain", "say"],
+      "answer": "say"
+    }
+  ]
+},
+{
+  "title": "Lesson 4: Talking About Past Habits",
+  "content": [
+    "Grammar: Used to / Would for past habits",
+    "Vocabulary: habit, routine, childhood, regularly, previously",
+    "Conversation: 'I used to go fishing with my grandfather.' 'Same here! We would fish every weekend!'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which sentence shows a past habit?",
+      "options": [
+        "I go to the gym every day.",
+        "I used to play tennis after school.",
+        "He is watching TV now.",
+        "She will study later."
+      ],
+      "answer": "I used to play tennis after school."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "When I was a kid, we _______ (go) to the beach every summer.",
+      "answer": "used to go"
+    },
+    {
+      "type": "matching",
+      "question": "Match the phrase to its time reference",
+      "pairs": {
+        "Used to": "In the past",
+        "Would (past habit)": "Regularly before",
+        "Nowadays": "In the present"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "My father _______ tell stories before bed.",
+      "answer": "would"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which is NOT a past habit?",
+      "options": [
+        "She used to sing in a band.",
+        "He would walk to school every day.",
+        "I was tired yesterday.",
+        "They used to travel a lot."
+      ],
+      "answer": "I was tired yesterday."
+    }
+  ]
+},
+{
+  "title": "Lesson 5: Making Complaints and Apologies",
+  "content": [
+    "Grammar: Modal verbs for politeness (could, would), formal structures for complaints",
+    "Vocabulary: complaint, apologize, issue, unacceptable, inconvenience",
+    "Conversation: 'I’d like to make a complaint about the noise.' 'We apologize for the inconvenience.'"
+  ],
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which is a polite way to complain?",
+      "options": [
+        "This is bad!",
+        "I hate this!",
+        "I’d like to make a complaint.",
+        "You guys are terrible."
+      ],
+      "answer": "I’d like to make a complaint."
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "We _______ for the delay in service.",
+      "answer": "apologize"
+    },
+    {
+      "type": "matching",
+      "question": "Match the phrase with the purpose",
+      "pairs": {
+        "We’re sorry for the mistake": "Apologizing",
+        "Could you help us solve this issue?": "Requesting help",
+        "I’d like to speak to a manager": "Making a complaint"
+      }
+    },
+    {
+      "type": "fill_in_the_blank",
+      "question": "The food was cold. This is totally _______.",
+      "answer": "unacceptable"
+    },
+    {
+      "type": "multiple_choice",
+      "question": "Which is a formal phrase to apologize?",
+      "options": [
+        "My bad",
+        "Oops, sorry",
+        "We apologize for the inconvenience",
+        "Too bad"
+      ],
+      "answer": "We apologize for the inconvenience"
+    }
+  ]
+}
+
+

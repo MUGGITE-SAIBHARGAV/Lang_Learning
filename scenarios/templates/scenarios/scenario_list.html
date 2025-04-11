@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="text-center mb-4">📚 Real-Life Conversation Scenarios</h2>
+
+    <div class="row">
+        {% for scenario in scenarios %}
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="{% static 'images/'|add:scenario.image %}" class="card-img-top" alt="{{ scenario.title }}" style="height: 200px; object-fit: cover;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{ scenario.title }}</h5>
+                    <p class="card-text text-muted">{{ scenario.description|truncatewords:15 }}</p>
+                    <a href="{% url 'scenarios:scenario_detail' scenario.id %}" class="btn btn-primary">Start Conversation</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

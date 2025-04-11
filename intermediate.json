@@ -1,0 +1,420 @@
+{
+  "course_title": "English Intermediate Course",
+  "level": "Intermediate",
+  "language": "English",
+  "lessons": [
+    {
+      "title": "Lesson 1: Making Small Talk",
+      "content": [
+        "Grammar: Present Simple vs Present Continuous",
+        "Vocabulary: weather, hobbies, small talk phrases",
+        "Conversation: 'Hi! Nice weather today, isn’t it?' 'Yeah, it’s perfect for a walk.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is in present continuous?",
+          "options": ["I read a book.", "She is reading a book.", "He read a book.", "They have books."],
+          "answer": "She is reading a book."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "It _______ (rain) right now.",
+          "answer": "is raining"
+        },
+        {
+          "type": "matching",
+          "question": "Match the phrase with its meaning",
+          "pairs": {
+            "Nice to meet you": "Greeting when introduced",
+            "How’s it going?": "Informal way to ask how someone is",
+            "Lovely weather": "Talking about the weather"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "She usually _______ (go) for a walk in the evening.",
+          "answer": "goes"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What topic is common in small talk?",
+          "options": ["Politics", "Weather", "Finances", "Homework"],
+          "answer": "Weather"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 2: Talking About Past Experiences",
+      "content": [
+        "Grammar: Present Perfect vs Past Simple",
+        "Vocabulary: experience, travel, went, have you ever, loved",
+        "Conversation: 'Have you ever been to Paris?' 'Yes, I went there last summer. It was amazing!'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is in present perfect?",
+          "options": ["I visited Rome.", "She goes to Spain.", "He has been to London.", "They will travel next year."],
+          "answer": "He has been to London."
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "I _______ (eat) sushi before.",
+          "answer": "have eaten"
+        },
+        {
+          "type": "matching",
+          "question": "Match the phrase with its meaning",
+          "pairs": {
+            "Have you ever?": "Asking about experience",
+            "Last year": "Past time",
+            "Delicious": "Tasty"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "She _______ (go) to Japan in 2019.",
+          "answer": "went"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which one is a past experience?",
+          "options": ["I am going to school", "I have a book", "I went swimming", "I am eating"],
+          "answer": "I went swimming"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 3: Making Comparisons",
+      "content": [
+        "Grammar: Comparatives and Superlatives",
+        "Vocabulary: taller, better, more expensive, the most, than",
+        "Conversation: 'This phone is better than my old one.' 'Yeah, but it’s more expensive.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which word is a comparative?",
+          "options": ["Best", "Good", "Better", "The best"],
+          "answer": "Better"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "My car is _______ (fast) than yours.",
+          "answer": "faster"
+        },
+        {
+          "type": "matching",
+          "question": "Match the comparison with meaning",
+          "pairs": {
+            "Taller than": "More height",
+            "Cheaper than": "Costs less",
+            "The best": "Top quality"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "This is the _______ (good) cake I’ve ever had!",
+          "answer": "best"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is a superlative?",
+          "options": ["More big", "Bigger", "Biggest", "Big"],
+          "answer": "Biggest"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 4: Expressing Opinions",
+      "content": [
+        "Grammar: 'I think', 'In my opinion', 'I believe'",
+        "Vocabulary: agree, disagree, believe, opinion, idea",
+        "Conversation: 'I think this movie is great.' 'I disagree. It’s too long.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "What is a polite way to express an opinion?",
+          "options": ["You are wrong", "I think it’s good", "This is stupid", "No!"],
+          "answer": "I think it’s good"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "_______ my opinion, the book is better than the movie.",
+          "answer": "In"
+        },
+        {
+          "type": "matching",
+          "question": "Match the expression to its meaning",
+          "pairs": {
+            "I believe": "Giving your view",
+            "I disagree": "Different opinion",
+            "I agree": "Same opinion"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "I _______ (think) we should leave now.",
+          "answer": "think"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which one shows disagreement?",
+          "options": ["I agree", "Yes", "I disagree", "Okay"],
+          "answer": "I disagree"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 5: Future Plans",
+      "content": [
+        "Grammar: 'going to' and 'will' for future",
+        "Vocabulary: tomorrow, next week, later, plan, schedule",
+        "Conversation: 'I’m going to visit my grandma tomorrow.' 'Nice! I’ll call you in the evening.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence uses 'going to'?",
+          "options": ["I will eat", "I eat", "I’m going to eat", "I have eaten"],
+          "answer": "I’m going to eat"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "He _______ (visit) us next week.",
+          "answer": "is going to visit"
+        },
+        {
+          "type": "matching",
+          "question": "Match future words with meanings",
+          "pairs": {
+            "Tomorrow": "The next day",
+            "Next week": "In seven days",
+            "Later": "After now"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "They _______ (call) you tonight.",
+          "answer": "will call"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What shows a future intention?",
+          "options": ["I am", "I was", "I’m going to", "I had"],
+          "answer": "I’m going to"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 6: Giving Directions",
+      "content": [
+        "Grammar: Imperatives (turn left, go straight)",
+        "Vocabulary: left, right, straight, next to, behind, between",
+        "Conversation: 'Excuse me, how do I get to the bank?' 'Go straight and turn left. It’s next to the supermarket.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which is an imperative sentence?",
+          "options": ["I am going left", "Go straight", "He turns right", "You are here"],
+          "answer": "Go straight"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "Turn _______ at the traffic light.",
+          "answer": "left"
+        },
+        {
+          "type": "matching",
+          "question": "Match the phrase with its meaning",
+          "pairs": {
+            "Go straight": "Continue forward",
+            "Turn right": "Go to the right",
+            "Behind the mall": "At the back of the mall"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "The library is _______ the post office and the café.",
+          "answer": "between"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What would you say to help someone find a place?",
+          "options": ["Stay still", "Go away", "Go straight", "Sit down"],
+          "answer": "Go straight"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 7: Making Requests and Offers",
+      "content": [
+        "Grammar: Can you…? Would you like…?",
+        "Vocabulary: help, offer, request, polite, sure",
+        "Conversation: 'Can you help me with this box?' 'Sure!'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is a polite request?",
+          "options": ["Help me!", "Can you help me?", "Do it!", "You must help."],
+          "answer": "Can you help me?"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "_______ you like some tea?",
+          "answer": "Would"
+        },
+        {
+          "type": "matching",
+          "question": "Match the request to the meaning",
+          "pairs": {
+            "Can you pass the salt?": "Asking for help",
+            "Would you like water?": "Offering a drink",
+            "Could you open the window?": "Polite request"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "Can you _______ me move this table?",
+          "answer": "help"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which one is an offer?",
+          "options": ["Can I go?", "Would you like some juice?", "I don’t want it", "He is tired"],
+          "answer": "Would you like some juice?"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 8: Describing Daily Routines",
+      "content": [
+        "Grammar: Present Simple (routines)",
+        "Vocabulary: wake up, have breakfast, go to work, brush, sleep",
+        "Conversation: 'I wake up at 7 and have coffee. Then I go to work at 9.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence describes a routine?",
+          "options": ["I’m eating now", "I slept late", "I go to school every day", "I went home"],
+          "answer": "I go to school every day"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "She _______ (brush) her teeth every morning.",
+          "answer": "brushes"
+        },
+        {
+          "type": "matching",
+          "question": "Match the activity to the time of day",
+          "pairs": {
+            "Wake up": "Morning",
+            "Have dinner": "Evening",
+            "Go to bed": "Night"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "They _______ (go) to the gym on Mondays.",
+          "answer": "go"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What do people usually do in the morning?",
+          "options": ["Go to bed", "Have dinner", "Wake up", "Watch movies"],
+          "answer": "Wake up"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 9: Apologizing and Thanking",
+      "content": [
+        "Grammar: Sorry for…, Thank you for…",
+        "Vocabulary: sorry, thanks, appreciate, forgive, polite",
+        "Conversation: 'I’m really sorry I’m late.' 'It’s okay. Thanks for letting me know.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which phrase shows apology?",
+          "options": ["Thank you!", "I’m sorry", "You're welcome", "No problem"],
+          "answer": "I’m sorry"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "Thank you _______ helping me.",
+          "answer": "for"
+        },
+        {
+          "type": "matching",
+          "question": "Match the expression to its purpose",
+          "pairs": {
+            "I’m sorry": "Apologizing",
+            "Thank you": "Showing gratitude",
+            "You’re welcome": "Responding to thanks"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "I _______ (apologize) for the mistake.",
+          "answer": "apologize"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "How do you respond to 'Thanks'?",
+          "options": ["No", "Sure", "You’re welcome", "What?"],
+          "answer": "You’re welcome"
+        }
+      ]
+    },
+    {
+      "title": "Lesson 10: Describing People and Places",
+      "content": [
+        "Grammar: Adjectives (tall, friendly, modern, beautiful)",
+        "Vocabulary: tall, friendly, crowded, quiet, interesting",
+        "Conversation: 'She’s very friendly and always smiling.' 'Yeah, and her house is beautiful.'"
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which word is an adjective?",
+          "options": ["Quickly", "Friendly", "Run", "Talk"],
+          "answer": "Friendly"
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "The museum is very _______ (interesting).",
+          "answer": "interesting"
+        },
+        {
+          "type": "matching",
+          "question": "Match the word with description",
+          "pairs": {
+            "Quiet": "Not noisy",
+            "Crowded": "Too many people",
+            "Modern": "New style"
+          }
+        },
+        {
+          "type": "fill_in_the_blank",
+          "question": "He is a _______ (tall) boy with glasses.",
+          "answer": "tall"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which adjective describes a person?",
+          "options": ["Friendly", "Library", "City", "Laptop"],
+          "answer": "Friendly"
+        }
+      ]
+    }
+
+
+   
+  ]
+}

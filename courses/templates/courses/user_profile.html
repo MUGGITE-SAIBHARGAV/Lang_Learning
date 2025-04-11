@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Your Learning Progress</h2>
+
+{% if courses_progress %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Lessons Completed</th>
+                <th>Total Lessons</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for progress in courses_progress %}
+                <tr>
+                    <td>{{ progress.course.name }}</td>
+                    <td>{{ progress.lessons_completed }}</td>
+                    <td>{{ progress.total_lessons }}</td>
+                    <td>{{ progress.score }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% else %}
+    <p>You haven't started any lessons yet. Start learning now!</p>
+{% endif %}
+
+{% endblock %}

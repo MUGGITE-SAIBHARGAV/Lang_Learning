@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Practice Your Pronunciation</h2>
+<p>Click the button below and say the word:</p>
+
+<h3 id="word-to-pronounce">Hello</h3>
+<button id="start-recording">🎤 Start Speaking</button>
+<p id="result"></p>
+
+<script>
+    const words = ["Hello", "Thank you", "Good morning", "How are you?", "Language"];
+    let targetWord = words[Math.floor(Math.random() * words.length)];
+    document.getElementById("word-to-pronounce").innerText = targetWord;
+
+    let mediaRecorder;
+    let audioChunks = [];
+
+    document.getElementById("start-recording").addEventListener("click", function() {
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(stream => {
+                mediaRecorder = new MediaRecorder(stream);
+                mediaRecorder.start();
+                audioChunks = [];
+
+                mediaRecorder.ondataavailable = event => {
+                    audioChunks.push(event.data);
+                };
+
+                mediaRecorder.onstop = () => {
+                    let audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    let formData = new FormData();
+                    formData.append('audio', audioBlob, 'speech.wav');
+                    formData.append('target_text', targetWord);
+
+                    fetch("{% url 'courses:evaluate_speech' %}", {
+                        method: 'POST',
+                        body: formData,
+                        headers: { "X-CSRFToken": "{{ csrf_token }}" }
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.error) {
+                            document.getElementById("result").innerText = "❌ " + data.error;
+                        } else {
+                            document.getElementById("result").innerText = `You said: "${data.user_text}" - Score: ${data.score}%`;
+                        }
+                    });
+                };
+
+                setTimeout(() => mediaRecorder.stop(), 3000);  // Stop recording after 3 seconds
+            })
+            .catch(error => console.error("Microphone access error: ", error));
+    });
+</script>
+{% endblock %}
