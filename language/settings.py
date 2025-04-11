@@ -59,7 +59,7 @@ MIDDLEWARE = [
     "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
-ROOT_URLCONF = 'Language_Learning.urls'
+ROOT_URLCONF = 'language.urls'
 
 TEMPLATES = [
     {
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Language_Learning.wsgi.application'
+WSGI_APPLICATION = 'language.wsgi.application'
 
 
 # Database
