@@ -60,6 +60,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'language.urls'
+  # or wherever you want to redirect after login
+
 
 TEMPLATES = [
     {
